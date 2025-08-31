@@ -1,4 +1,4 @@
-package ru.nsu.gbykova.Task_1_1_1;
+package ru.nsu.gbykova.sort;
 
 public class Sort {
     public static int[] sort(int[] array) {

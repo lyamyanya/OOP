@@ -1,7 +1,15 @@
 package ru.nsu.gbykova.sort;
 
+import java.util.Arrays;
+
+/**
+ * Class with sort
+ */
 public class Sort {
+
     public static int[] sort(int[] array) {
-        return new int[] {1, 2, 3};
+        var result = array.clone();
+        Arrays.sort(result);
+        return result;
     }
 }
